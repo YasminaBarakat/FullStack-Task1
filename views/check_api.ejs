@@ -1,0 +1,16 @@
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+<body>
+  <%- include("./partials/nav.ejs") %>
+  <h2>TRIVIA</h2>
+
+  <div class="Trivia">
+    <h3>Category: <span style="font-weight:normal"><%= Category %></span></h3>
+    <h3>Question: <span style="font-weight:normal"><%= Question %></span></h3>
+    <h3>Answer: <span style="font-weight:normal"><%= Answer %></span></h3>
+  </div>
+
+  <%- include("./partials/footer.ejs") %>
+</body>
+</html>
